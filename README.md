@@ -64,5 +64,149 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Auphonic is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://auphonic.com
+Auphonic provides an AI‑powered audio post‑production platform that automates tasks such as noise reduction, loudness normalization, speech‑to‑text, and multi‑track mixing. It serves podcasters, educators, video creators, and audiobook producers, offering both a web UI and a robust API for automated workflows, integrations with cloud storage, publishing platforms, and custom processing pipelines.
+
+**Areas:** Audio · Podcasts · Artificial Intelligence · Automation · Media
+
+## Auphonic on APIs.io
+
+Everything profiled for Auphonic is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/auphonic/](https://apis.io/providers/auphonic/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Auphonic Info API](https://apis.io/apis/auphonic/auphonic-info-api/) — Query available formats, algorithms and service types. See the [Info API documentation](https://auphonic.com/help/api/query.html) for details.
+- [Auphonic Presets API](https://apis.io/apis/auphonic/auphonic-presets-api/) — Create and manage production presets (templates). Presets can be **Singletrack** or **Multitrack** — each mode has different algorithm parameters. **Use the…
+- [Auphonic Productions API](https://apis.io/apis/auphonic/auphonic-productions-api/) — Create, manage and process audio productions. Productions can be **Singletrack** or **Multitrack** — each mode has different algorithm parameters. When…
+- [Auphonic Services API](https://apis.io/apis/auphonic/auphonic-services-api/) — Manage external service integrations. See the [External Services documentation](https://auphonic.com/help/api/query.html#external-services) for details.
+- [Auphonic Simple API](https://apis.io/apis/auphonic/auphonic-simple-api-api/) — Simplified **singletrack** production creation in a single multipart/form-data request. Only singletrack productions can be created with the Simple API. See…
+- [Auphonic User API](https://apis.io/apis/auphonic/auphonic-user-api/) — User account information. See the [User API documentation](https://auphonic.com/help/api/query.html#user-account-info) for details.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Auphonic Webhooks](https://apis.io/asyncapis/auphonic/auphonic-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Auphonic Agentic Access](https://apis.io/agentic-access/auphonic/auphonic-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [MultiInputFileRequest](https://apis.io/schemas/auphonic/auphonic-multi-input-file-request/)
+- [OutgoingService](https://apis.io/schemas/auphonic/auphonic-outgoing-service/)
+- [OutputFileRequest](https://apis.io/schemas/auphonic/auphonic-output-file-request/)
+- [ServiceAccount](https://apis.io/schemas/auphonic/auphonic-service-account/)
+- [SpeechRecognitionRequest](https://apis.io/schemas/auphonic/auphonic-speech-recognition-request/)
+- [User](https://apis.io/schemas/auphonic/auphonic-user/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Auphonic Context](https://apis.io/jsonld/auphonic/auphonic-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Auphonic API Rules](https://apis.io/rules/auphonic/auphonic-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Auphonic Authentication](https://apis.io/security/auphonic/auphonic-authentication/)
+- [Auphonic Domain Security](https://apis.io/security/auphonic/auphonic-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Auphonic Scopes](https://apis.io/scopes/auphonic/auphonic-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Auphonic Rate Limits](https://apis.io/rate-limits/auphonic/auphonic-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://auphonic.com)
+- [Documentation](https://auphonic.com/help/)
+- [Getting started](https://auphonic.com/landing)
+- [API reference](https://auphonic.com/help/api/)
+- [Pricing](https://auphonic.com/pricing)
+- [Sign up](https://auphonic.com/accounts/register/)
+- [Support](https://auphonic.com/help/)
+- [Changelog](https://auphonic.com/changelog)
+- [Blog](https://auphonic.com/blog/)
+- [Terms of service](https://auphonic.com/impressum)
+- [Privacy policy](https://auphonic.com/impressum)
+- [GitHub](https://github.com/auphonic)
+
+## API Evangelist rating
+
+**Kin Score 58.3** — strong · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 65.6 |
+| Contract governance | 35.6 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 73.2 |
+| Access clarity | 44.7 |
+
+**Agent readiness 31.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/auphonic/](https://apis.io/providers/auphonic/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Auphonic: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/auphonic/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
